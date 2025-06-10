@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Karuppasamy T, a final-year ECE student specializing in IoT, embedded systems, and software development.">
+    <title>Karuppasamy T - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="custom-cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav" aria-label="Main navigation">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home" aria-label="Go to Home section">Home</a></li>
+                    <li><a href="#about" aria-label="Go to About section">About</a></li>
+                    <li><a href="#skills" aria-label="Go to Skills section">Skills</a></li>
+                    <li><a href="#projects" aria-label="Go to Projects section">Projects</a></li>
+                    <li><a href="#contact" aria-label="Go to Contact section">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="welcome">Hi, I am</p>
+                <h1>Karuppasamy T</h1>
+                <p class="subtitle" id="typewriter"></p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="cta-button" aria-label="Connect with Karuppasamy">Connect with Me</a>
+                    <a href="resume.pdf" class="cta-button secondary" download aria-label="Download Resume">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Karuppasamy T portrait" class="hero-img" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I am a final-year Electronics and Communication Engineering student with a passion for solving real-world problems through IoT, embedded systems, and software development. My expertise spans designing IoT solutions with ESP32, Arduino, and ThingSpeak, developing embedded applications using ARM Cortex M4 and Embedded C, and building cross-platform mobile apps with Flutter. I have hands-on experience in projects like smart agriculture, solar panel fault detection, and wireless communication, leveraging tools such as MATLAB, Verilog, and PCB design software. My goal is to innovate in smart technologies, contributing to sustainable and efficient systems.</p>
+                <div class="timeline">
+                    <h3>My Journey</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>2022 - First IoT Project</h4>
+                            <p>Developed my first IoT project: a smart irrigation system using Arduino, sparking my interest in smart technologies.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>2023 - Advanced IoT Exploration</h4>
+                            <p>Expanded my IoT skills by working on smart home automation projects with ESP32 and cloud integration.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>2024 - Published IEEE Paper</h4>
+                            <p>Published a paper on solar panel fault detection in IEEE Transactions, a major milestone in my academic career.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>2025 - Final Year Projects</h4>
+                            <p>Currently working on advanced IoT projects, including a solar photovoltaic system and smart farming solutions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>2026 - Future Aspirations</h4>
+                            <p>Plan to join a leading tech company to contribute to innovative IoT and embedded systems solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                    <img src="python-logo.png" alt="Python Logo" class="skill-logo" loading="lazy">
+                    <p>Python</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 20%;"></div>
+                    </div>
+                    <span class="progress-value">20%</span>
+                </div>
+                <div class="skill" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <img src="java-logo.png" alt="Java Logo" class="skill-logo" loading="lazy">
+                    <p>Java</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 50%;"></div>
+                    </div>
+                    <span class="progress-value">50%</span>
+                </div>
+                <div class="skill" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    <i class="fas fa-network-wired skill-logo"></i>
+                    <p>IoT Projects (with Sensor Integration)</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%;"></div>
+                    </div>
+                    <span class="progress-value">70%</span>
+                </div>
+                <div class="skill" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <i class="fas fa-paint-brush skill-logo"></i>
+                    <p>Web Designing</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                    <span class="progress-value">90%</span>
+                </div>
+                <div class="skill" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    <i class="fas fa-microchip skill-logo"></i>
+                    <p>ARM Cortex M4</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%;"></div>
+                    </div>
+                    <span class="progress-value">70%</span>
+                </div>
+                <div class="skill" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    <img src="flutter-logo.png" alt="Flutter Logo" class="skill-logo" loading="lazy">
+                    <p>Flutter</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%;"></div>
+                    </div>
+                    <span class="progress-value">70%</span>
+                </div>
+                <div class="skill" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <i class="fas fa-cloud skill-logo"></i>
+                    <p>Cloud IoT</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 50%;"></div>
+                    </div>
+                    <span class="progress-value">50%</span>
+                </div>
+                <div class="skill" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">
+                    <img src="matlab-logo.png" alt="MATLAB Logo" class="skill-logo" loading="lazy">
+                    <p>MATLAB</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 87%;"></div>
+                    </div>
+                    <span class="progress-value">87%</span>
+                </div>
+                <div class="skill" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <i class="fas fa-drafting-compass skill-logo"></i>
+                    <p>PCB Design</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                    <span class="progress-value">90%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="IoT Home Automation" class="project-img" loading="lazy">
+                    <h3>IoT Home Automation</h3>
+                    <p>Smart home system with ESP32 for remote appliance control.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Smart Irrigation System" class="project-img" loading="lazy">
+                    <h3>Smart Irrigation System</h3>
+                    <p>Automated irrigation using Arduino and soil sensors.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project15.jpg" alt="Solar Photovoltaic System" class="project-img" loading="lazy">
+                    <h3>Solar Photovoltaic System</h3>
+                    <p>IoT-enabled solar panel fault detection.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project4.jpg" alt="Smart Energy Meter" class="project-img" loading="lazy">
+                    <h3>Smart Energy Meter</h3>
+                    <p>IoT energy monitoring with ESP8266 and AWS IoT.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project5.jpg" alt="Health Monitoring Wearable" class="project-img" loading="lazy">
+                    <h3>Health Monitoring Wearable</h3>
+                    <p>Wearable for real-time health tracking using ESP32.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project6.jpg" alt="Smart Parking System" class="project-img" loading="lazy">
+                    <h3>Smart Parking System</h3>
+                    <p>IoT parking solution with Raspberry Pi.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project7.jpg" alt="Air Quality Monitor" class="project-img" loading="lazy">
+                    <h3>Air Quality Monitor</h3>
+                    <p>IoT air quality system with MQ sensors.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project8.jpg" alt="Smart Door Lock" class="project-img" loading="lazy">
+                    <h3>Smart Door Lock</h3>
+                    <p>RFID-based lock with smart home system.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project9.jpg" alt="IoT Weather Station" class="project-img" loading="lazy">
+                    <h3>IoT Weather Station</h3>
+                    <p>Weather monitoring with BME280 and ThingSpeak.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project10.jpg" alt="Smart Waste Management" class="project-img" loading="lazy">
+                    <h3>Smart Waste Management</h3>
+                    <p>IoT waste bin monitoring with ultrasonic sensors.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project11.jpg" alt="UX Design Portfolio" class="project-img" loading="lazy">
+                    <h3>UX Design Portfolio</h3>
+                    <p>Designed user-centric interfaces using Figma.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project12.jpg" alt="Web Development Platform" class="project-img" loading="lazy">
+                    <h3>Web Development Platform</h3>
+                    <p>Full-stack web app with React and Node.js.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project13.jpg" alt="Flutter E-Commerce App" class="project-img" loading="lazy">
+                    <h3>Flutter E-Commerce App</h3>
+                    <p>Cross-platform mobile app for online shopping.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project14.jpg" alt="Smart Farming System" class="project-img" loading="lazy">
+                    <h3>Smart Farming System</h3>
+                    <p>IoT-based farming with automated irrigation.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project15.jpg" alt="Wireless Communication" class="project-img" loading="lazy">
+                    <h3>Wireless Communication</h3>
+                    <p>RF-based data transmission with ARM Cortex M4.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section alt-bg">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Let’s innovate together! Reach out for collaboration or inquiries.</p>
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/your_endpoint" method="POST">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Your Name">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                    <textarea id="message" name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                    <button type="submit" class="cta-button" aria-label="Send Message">Send Message</button>
+                </form>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <p><a href="https://wa.me/+916385478936" target="_blank" rel="noopener">+91 6385478936</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:karuppasamy.t2005@gmail.com">karuppasamy.t2005@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p><a href="https://www.linkedin.com/in/karuppasamy-t-95b2b3360" target="_blank" rel="noopener">LinkedIn Profile</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p><a href="https://github.com/karuppasamyhub" target="_blank" rel="noopener">GitHub Profile</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <p><a href="https://www.instagram.com/_mr_black_19_" target="_blank" rel="noopener">Instagram Profile</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Karuppasamy T. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
